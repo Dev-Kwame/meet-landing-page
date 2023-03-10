@@ -13,7 +13,7 @@ body{
    
 }
 #image-hero-left{
-    margin-left: -50px;
+    margin-left: -40px;
     margin-top: 20px;
 }
 #image-hero-right{
@@ -80,5 +80,87 @@ h1{
     color: white;
     font-family:'Red Hat Display';
     font-weight: bold;
+
+}
+.btnmain{
+    margin-top: 120px;
+    margin-left: 630px;
+
+   
+}
+.line{
+    border-left: 1px solid;
+    height: 84px;
+    border-color: #87879D;
+    opacity: 25%;
+    margin-left: 29px;
+    
+}
+#num_button{
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 19px;
+    color: #87879D;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Red Hat Display';
+}
+.btncontainer{
+    border: 1px solid;
+    width: 56px;
+    height: 56px;
+    border-radius: 29px;
+    border-color: #87879D;
+ 
+}
+#image1{
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 25px;
+    width: 255px;
+    height: 242px;
+    border-radius: 10px;
+}   
+#image2{
+    width: 255px;
+    height: 242px;
+    border-radius: 10px;
+    margin-right: 25px;
+
+}
+#image3{
+    width: 255px;
+    height: 242px;
+    border-radius: 10px;
+    margin-right: 25px;
+      
+}
+#image4{
+    width: 255px;
+    height: 242px;
+    border-radius: 10px; 
+}
+h2{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    color: #4D96A9;
+    letter-spacing: 4px;
+    
+    
+}
+h3{
+    font-family:'Red Hat Display';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5px; ;
+
+}
+p{
+    font-family:'Red Hat Display' ;
+    font-size: 18px;
+    color: #87879D;
+    text-align: center;
 
 }
