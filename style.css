@@ -128,6 +128,11 @@ h3{
   margin-bottom: 2em;
 
 }
+.btn02{
+  margin-top: 7em;
+  display: grid;
+  place-items: center;
+}
 h2{
   font-family: 'Red Hat Display';
   font-size: 2.5em;
@@ -158,7 +163,7 @@ header {
 }
   
 
-  .text-container {
+.text-container {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
@@ -167,10 +172,13 @@ header {
     margin-top: 20px;
   }
 
+.btn-02{
+  margin-top: -25px;
+}
 
 
 .btn-download{
-  width: 193px;
+    width: 193px;
     height: 58px;
     padding: 5px 10px;
     background-color: #855FB1;
@@ -182,13 +190,34 @@ header {
     font-weight: bold;
     align-self: flex-start;
     margin: 0;
-   
+
 
 }
+#num_button02{
+  border: 1px solid rgba(135, 135, 157, 0.25);;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  padding: 15px;
+  color: #87879D;
+  font-weight: bold;
+}
+.footer-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 308px;
+    background-image: url('/assets/tablet/image-footer.jpg.');
+    background-size: cover;
+    
+}
+  
+  
 
 
-   
-    @media (min-width:1025px){
+
+
+    
+    @media (min-width:50rem){
 
         header {
           display: block;
@@ -216,19 +245,18 @@ header {
           right: -2.3%;
           top: 0;
         }
+        
+
+        
+       
 
         
        
         
 
-        
-      
-    
-
-       
       }
   
-    
+      /*tablet*/
       @media only screen and (min-width: 768px) {
         .container img {
             margin-right: 2.5em;
@@ -239,20 +267,23 @@ header {
         }
         h2{
           font-size: 2.5em;
+         
+          
           
         }
         #send-msg{
           line-height: 26px;
           text-align: center;
+          
         }
-       
-
         
-
        
-        
       
+
+    
       }
+
+
       @media  only screen and (min-width:321px) and (max-width:768px){
   
 
@@ -268,12 +299,22 @@ header {
         }
         h2{
           font-size: 2em;
+          
+          
         }
+        
        
-         
        
-    
         
       }
+      
+      @media only screen  and (min-width : 1224px) {
+        .footer-wrapper{
+          background-image: url(/assets/desktop/image-footer.jpg);
+        }
+
+      }
+      
+      
 
      
