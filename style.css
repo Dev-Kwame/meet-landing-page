@@ -38,6 +38,8 @@ h1 {
   }
   .btn{
     margin-top: 45px;
+    
+  
   }
 .download{
     width: 193px;
@@ -53,7 +55,7 @@ h1 {
     transition: duration 0.5s;
     cursor: pointer;
     margin-right: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
  
 }
 .download:hover{
@@ -193,6 +195,7 @@ header {
     margin: 0;
 
 
+
 }
 #num_button02{
   border: 1px solid rgba(135, 135, 157, 0.25);
@@ -318,8 +321,7 @@ h4{
           font-size: 2.5em;
           line-height: 40px;
         }
-
-        
+      
         
        
        
@@ -333,6 +335,7 @@ h4{
         .header-container {
           display: none;
         }
+    
         
         #send-msg{
           font-size: 0.875em;
@@ -372,6 +375,10 @@ h4{
         font-size: 2.5em;
         line-height: 44px;
       }
+     .btn{
+        max-width: 80%;
+
+     }
         
       }
        /*Desktop screen sizes*/
@@ -397,10 +404,13 @@ h4{
           margin-right: 120px;
 
         }
+       
+
         
        
 
       }
+      
       
       
 
