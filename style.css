@@ -338,7 +338,7 @@ h4{
     
         
         #send-msg{
-          font-size: 0.875em;
+          font-size: 0.785em;
           text-align: center;
           justify-content: center;
           line-height: 26px;
@@ -365,7 +365,7 @@ h4{
       }
         
        #meet-makes{
-        font-size: 1.25em;
+        font-size: 0.785em;
         display: flex;
         text-align: center;
         justify-content: center;
