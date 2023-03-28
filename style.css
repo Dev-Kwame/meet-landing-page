@@ -30,7 +30,7 @@ h1 {
 
   p {
     font-family: 'Red Hat Display';
-    font-size: 1rem;
+    font-size: 1.125em;
     margin-top: 50px;
     color: #87879D;
     line-height: 26px;
@@ -254,7 +254,7 @@ h4{
 
 
 
-    
+    /*Large desktop,laptops screen sizes*/
     @media (min-width:50rem){
 
         header {
@@ -293,7 +293,7 @@ h4{
 
       }
   
-      /*tablet*/
+      /*Tablets screen size*/
       @media only screen and (min-width: 768px) {
         .container img {
             margin-right: 2.5em;
@@ -326,7 +326,7 @@ h4{
     
       }
 
-
+      /*Phone and Tablet screen sizes*/
       @media  only screen and (min-width:321px) and (max-width:768px){
   
 
@@ -361,12 +361,17 @@ h4{
         place-items: center;
       }
         
-        
+       #meet-makes{
+        font-size: 1.25em;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+       } 
        
-       
+
         
       }
-      
+       /*Desktop screen sizes*/
       @media only screen  and (min-width : 1224px) {
         .footer-wrapper{
           background-image: url('/assets/desktop/image-footer.jpg');
@@ -389,6 +394,7 @@ h4{
           margin-right: 120px;
 
         }
+        
        
 
       }
