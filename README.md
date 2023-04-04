@@ -18,7 +18,7 @@ Users should be able to:
 * See hover states for interactive elements
 ### Links
 * Solution URL: https://github.com/Dev-Kwame/Meet-Landing-page
-* Live Site URL: Add live site URL here
+* Live Site URL: https://meetlanding-page.netlify.app/
 ## The Process
 ### Built with
 * HTML5 markup
