@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  
   
 }
 body{
@@ -13,6 +15,7 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 .hero-right{
     margin-top: 5%;
@@ -58,6 +61,12 @@ h1 {
     margin-bottom: 2rem;
  
 }
+.download:hover::after{
+  content: "4.1";
+  color:#8FE3F9 ;
+}
+
+
 .download:hover{
   background-color:#71C0D4;
 }
@@ -109,9 +118,9 @@ h1 {
 .container {
   position: relative;
   margin-top: 5em;
-  display: flex;
+  margin-left: 13%;
   flex-flow: row wrap;
-  margin-left: 15%;
+  
 }
 
 .container img {
@@ -180,7 +189,7 @@ header {
 
 
 
-.btn-download{
+.download-btn{
     width: 193px;
     height: 58px;
     padding: 5px 10px;
@@ -193,10 +202,18 @@ header {
     font-weight: bold;
     align-self: flex-start;
     margin: 0;
-
-
-
+    transition: duration 0.3s;
+    cursor: pointer;
 }
+.download-btn:hover::after{
+  content: "4.1";
+  color: #D9B8FF;
+}
+
+.download-btn:hover{
+  background-color:#B18BDD;
+}
+
 #num_button02{
   border: 1px solid rgba(135, 135, 157, 0.25);
   border-radius: 50%;
@@ -230,6 +247,7 @@ h4{
 #con{
   font-family: 'Red Hat Display';
   font-size: 1.125em;
+  
   color: #fafafa;
   
   
@@ -323,7 +341,9 @@ h4{
         }
       
         
-       
+       .footer-wrapper{
+        background-image: url('/assets/tablet/image-footer.jpg');
+       }
        
     
       }
@@ -349,17 +369,22 @@ h4{
           
         }
         .footer-wrapper{
-          background-image: url('/assets/tablet/image-footer.jpg');
+          width: 100%;
+          height: 428px;
         }
         h4{
           text-align: center;
+          margin-top: 100px;
+          margin-bottom: 20px;
         }
         #con{
+         
           text-align: center;
           margin-top: 15px;
           line-height: 20px;
        }
        .btn-position{
+        margin-top: 20px;
         display: grid;
         place-items: center;
       }
@@ -404,14 +429,9 @@ h4{
           margin-right: 120px;
 
         }
-       
 
-        
        
-
       }
-      
-      
-      
+     
 
      
