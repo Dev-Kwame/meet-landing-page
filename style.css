@@ -87,6 +87,7 @@ p {
 }
 .what:hover{
   background-color: #B18BDD;
+  cursor: pointer;
 }
 
  
